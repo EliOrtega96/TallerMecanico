@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: "Arial",verdana;
+}
+
+
+
+
+header{
+    box-sizing: border-box;
+    width: 100%;
+    background: #2c3e50;
+    padding: 2px;
+    padding: 1% 1%;
+    color: #fff;
+}
+header .titulo{
+    display:inline-block;
+}
+nav{
+    margin-right: 40px;
+    float:right;
+}
+#perfil{
+    margin:10px auto;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 70px;
+}
+#perfil >ul li{
+    list-style: none;
+}
+#perfil > ul >li{
+    float: left;
+    box-sizing: border border-box;
+    padding: 2% 3%;
+    width: 33%;
+}
+#perfil > ul > li > ul li{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#perfil #img{
+    width: 150x;
+    border-radius: 80px;
+}
+.publicacion{
+    height:100px;
+    width: 200px;
+    background: red;
+}
+.publi-img-perfil{
+    width: 30px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.publi-info-perfil{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 7px 10px 7px 10px;
+}
+.publicacion img{
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.publicacion .comentario{
+    display:inline-block;
+}
+.publicacion .comentario input, .subir #contenido{
+    padding: 10px;
+    border-style:none;
+    font-size: 17px;
+    width: 90%;
+}
+.publicacion .comentario input:focus{
+    outline: none;
+}
+.comentario-nombre, #like{
+    margin-left: 10px;
+    margin-bottom: 7px;
+    color:#2c3e50;
+    font-size: 15px;
+    font-weight: bold;
+}
+.comentario-nombre .comentarios{
+    font: inherit;
+    font-size: 12px;
+    color:black;
+    font-weight: lighter;
+    font-family:'proxima-nova','Helvetica Neue',Arial, Helvetica, sans-serif;
+
+}
+a.nombre-usuario{
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 18px;
+}
+.publi-thumb{
+    width: 100%;
+    margin: auto;
+}
+.publi-contenido{
+    margin: 5px 5px 10px 10px;
+    font-style: inherit;
+    font-size: 12px;
+    color: black;
+    font-weight: lighter;
+    font-family:'proxima-nova','Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+.publicacion .like a:hover{
+    text-decoration: underline;
+}
+.publi-contene-like{
+    border-top: 1px solid #ccc;
+    padding:10px;
+}
